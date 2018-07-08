@@ -1,0 +1,23 @@
+{
+  "name": "test-microfrontend1",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.html",
+  "devDependencies": {
+    "browser-sync": "^2.24.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "ws --spa index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mindflowx/test-microservice1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mindflowx/test-microservice1/issues"
+  },
+  "homepage": "https://github.com/mindflowx/test-microservice1#readme"
+}
