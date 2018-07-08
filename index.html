@@ -1,6 +1,24 @@
 <html>
-	<head></head>
-	<body>
-		test-microfrontend1
-	</body>
+
+<head>
+	<link rel="import" href="./index.js" />
+</head>
+<!-- <script>
+
+	class HelloWorld extends HTMLElement {
+		constructor() {
+			super();
+			// Attach a shadow root to the element.
+			let shadowRoot = this.attachShadow({ mode: 'open' });
+			shadowRoot.innerHTML = `<p>hello world</p>`;
+		}
+	}
+	customElements.define('hello-world', HelloWorld);
+</script> -->
+
+<body>
+	test-microfrontend1
+	<hello-world />
+</body>
+
 </html>
